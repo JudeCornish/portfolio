@@ -548,7 +548,7 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 50vh;
+	min-height: 50vh;
 }
 
 .about-me p {
@@ -576,7 +576,7 @@ h4 {
 	}
 
 	.about-ls {
-		height: 62vh;
+		min-height: 0vh;
 	}
 }
 
