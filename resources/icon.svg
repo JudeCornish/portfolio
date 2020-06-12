@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.925" y1="0.178" x2="0.065" y2="0.829" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00cae5"/>
+      <stop offset="1" stop-color="#046e7c"/>
+    </linearGradient>
+    <clipPath id="clip-Logo_5">
+      <rect width="1080" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Logo_5" data-name="Logo 5" clip-path="url(#clip-Logo_5)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="540" cy="540" r="540" fill="url(#linear-gradient)"/>
+    <text id="JC" transform="translate(551 768)" fill="#fff" font-size="713" font-family="DancingScript-Regular, Dancing Script"><tspan x="-334.04" y="0">JC</tspan></text>
+  </g>
+</svg>
