@@ -190,15 +190,11 @@ header {
 
 @media screen and (max-width: 628px) {
 	.ring {
-		bottom: 0;
-		left: -20%;
-	}
-	.ring img {
-		width: 140%;
+		display: none;
 	}
 
 	.header-text {
-		top: 35%;
+		top: 50%;
 		width: 90%;
 	}
 
@@ -223,6 +219,10 @@ header {
 
 	.media-fixed {
 		display: none;
+	}
+
+	#scroll-animation {
+		top: 85vh;
 	}
 }
 
@@ -345,6 +345,10 @@ header {
 	margin-bottom: 1vh;
 }
 
+.project-button {
+	margin-top: 0vh;
+}
+
 .project-button ul {
 	list-style: none;
 	display: flex;
@@ -368,10 +372,20 @@ header {
 }
 
 .project-rs {
-	height: 50vh;
+	min-height: 50vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+	.project-rs {
+		min-height: 0vh;
+	}
+
+	.project-button {
+		margin-top: 3vh;
+	}
 }
 
 .floating-text {
@@ -593,6 +607,7 @@ footer {
 }
 .footer-bottom p {
 	line-height: 8vh;
+	font-size: 80%;
 }
 
 .footer-bottom a:hover {
