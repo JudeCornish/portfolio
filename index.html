@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/simple-grid.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- gsap -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+		<!-- AnimeJS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+		<!-- JQuery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- JQuery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+		<title>Jude Cornish</title>
+	</head>
+	<body>
+		<header>
+			<div class="progress-container">
+				<div class="progress-bar" id="myBar"></div>
+			</div>
+		</header>
+		<div class="landing-large">
+			<div class="header-text">
+				<h1>Jude Cornish</h1>
+				<h2>= Seamless digital Experiences =</h2>
+				<p>UK based designer and web-developer with a passion for simplicity</p>
+				<p>
+					Offering free services to charities and fundraisers (dependent upon
+					availability)
+				</p>
+				<div class="header-buttons">
+					<a
+						onClick="document.getElementById('first-project').scrollIntoView();"
+						class="projects-button"
+						>Projects</a
+					>
+					<a
+						class="contact-button"
+						href="mailto:judecornish@gmail.com?Subject=Enquiry"
+						target="_blank"
+						>Contact me</a
+					>
+				</div>
+			</div>
+
+			<div class="media-fixed">
+				<ul>
+					<li>
+						<a href="https://www.instagram.com/jude_cornish/" target="_blank"
+							><ion-icon name="logo-instagram"></ion-icon
+						></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/judaycs" target="_blank"
+							><ion-icon name="logo-youtube"></ion-icon
+						></a>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/company/lancaster-university-squash-club/"
+							target="_blank"
+							><ion-icon name="logo-linkedin"></ion-icon
+						></a>
+					</li>
+					<li>
+						<a
+							href="mailto:judecornish@gmail.com?Subject=Enquiry"
+							target="_blank"
+						>
+							<ion-icon name="mail"></ion-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="percent">
+				<div class="fill"></div>
+				<div class="counter"><h4></h4></div>
+			</div>
+
+			<div class="ringOne ring">
+				<img src="resources/ring.png" alt="" />
+			</div>
+			<div class="ringTwo ring">
+				<img src="resources/ring.png" alt="" />
+			</div>
+			<section id="scroll-animation" class="scroll">
+				<a href="#scroll-animation"><span></span></a>
+			</section>
+		</div>
+
+		<div class="project project1" id="first-project">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="project-header">
+					<h2>HTML5, CSS3, Node.js, React Native & Firebase</h2>
+					<h1>Fully Functional Social Media App</h1>
+				</div>
+				<div class="floating-text"><h1>#5</h1></div>
+
+				<div class="row project-showcase">
+					<div class="col-7">
+						<video
+							controls
+							loop
+							autoplay
+							muted
+							src="resources/social-ss.mov"
+						></video>
+					</div>
+					<div class="col-5 project-rs">
+						<div class="project-upper">
+							<h2>My own personal Twitter</h2>
+							<p>
+								Moving onto teaching myself React Native to be used alongside
+								Google Firebase. This enabled me to build a fully functioning
+								social media web application in around 80 hours.
+							</p>
+							<p>
+								It is complete with an authenticated user system, validation
+								checks upon all entries and even the ability to send
+								notifications to users when actions are taken. All within one
+								page with no reloads and minimal fetches.
+							</p>
+							<p>
+								The site is not currently online as Firebase charges based on
+								serves but I learnt a great deal through its completion.
+							</p>
+							<p>
+								Click the full screen button on the video (left) to see a demo
+								of most features.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row secondary-img-row">
+					<div class="col-3">
+						<img src="resources/socialape-1.png" />
+					</div>
+					<div class="col-3">
+						<img src="resources/socialape-2.png" />
+					</div>
+					<div class="col-3">
+						<img src="resources/socialape-3.png" />
+					</div>
+					<div class="col-3">
+						<img src="resources/socialape-4.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="project project2">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="project-header">
+					<h2>HTML5, CSS3 & JavaScript</h2>
+					<h1>Lancaster University Squash Club</h1>
+				</div>
+				<div class="floating-text"><h1>#4</h1></div>
+
+				<div class="row project-showcase">
+					<div class="col-7">
+						<video loop autoplay muted src="resources/lusquash-ss.mov"></video>
+					</div>
+					<div class="col-5 project-rs">
+						<div class="project-upper">
+							<h2>Smooth, Sporty and Spacious</h2>
+							<p>
+								This project was a real pleasure to construct. It is complete
+								with loading animations that are specific to any given
+								resolution as well as custom scroll effects that really add to
+								that sporty vibe.
+							</p>
+
+							<p>
+								Learnt a lot about animation and jQuery libraries that can be
+								used to really make a page pop. This was also my first time
+								choosing a more modern and design-focused full page navigation
+								alternative, over the more common navigation list across the
+								header. I think it turned out really well and reception has been
+								great!
+							</p>
+						</div>
+						<div class="project-button">
+							<ul>
+								<li>
+									<a href="https://www.lusquash.com/" target="_blank">
+										<ion-icon name="globe" class="project-icon"></ion-icon>
+										<p>Visit site</p>
+									</a>
+								</li>
+
+								<li>
+									<a
+										href="https://github.com/JudeCornish/lusquash"
+										target="_blank"
+									>
+										<ion-icon
+											name="logo-github"
+											class="project-icon"
+										></ion-icon>
+										<p>View source code</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="project project1">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="project-header">
+					<h2>HTML5, CSS3 & JavaScript</h2>
+					<h1>Darren Withey Coaching</h1>
+				</div>
+				<div class="floating-text"><h1>#3</h1></div>
+
+				<div class="row project-showcase">
+					<div class="col-7">
+						<img src="resources/withey-ss.png" />
+					</div>
+					<div class="col-5 project-rs">
+						<div class="project-upper">
+							<h2>Organised and Functional</h2>
+							<p>
+								Conducted a complete redesign and revamp of Darren Withey's
+								Squash site for professional use. Had a lot of fun with this
+								project and learnt a lot about troubleshooting bugs when working
+								with a lot of pages. This was the project that inspired me to
+								use the BEM convention going forward.
+							</p>
+							<p>
+								First time visiting completely responsive, pure HTML CSS tables.
+							</p>
+						</div>
+						<div class="project-button">
+							<ul>
+								<li>
+									<a
+										href="https://darrenwitheytemporary.netlify.app/"
+										target="_blank"
+									>
+										<ion-icon name="globe" class="project-icon"></ion-icon>
+										<p>Visit site</p>
+									</a>
+								</li>
+
+								<li>
+									<a
+										href="https://github.com/JudeCornish/darrenwithey"
+										target="_blank"
+									>
+										<ion-icon
+											name="logo-github"
+											class="project-icon"
+										></ion-icon>
+										<p>View source code</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="project project2">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="project-header">
+					<h2>HTML5, CSS3 & JavaScript</h2>
+					<h1>Benjam Portfolio</h1>
+				</div>
+				<div class="floating-text"><h1>#2</h1></div>
+
+				<div class="row project-showcase">
+					<div class="col-7">
+						<img src="resources/benjam-ss.png" />
+					</div>
+					<div class="col-5 project-rs">
+						<div class="project-upper">
+							<h2>Minimal and Focused</h2>
+							<p>
+								This site had to be as focused as possible on the truly
+								impressive photography Ben wanted to present.
+							</p>
+							<p>
+								Therefore, it was vital to give the viewer of the site the
+								clearest possible route straight to Ben's work, with as few
+								distractions as possible.
+							</p>
+						</div>
+						<div class="project-button">
+							<ul>
+								<li>
+									<a href="https://benjam.netlify.app/" target="_blank">
+										<ion-icon name="globe" class="project-icon"></ion-icon>
+										<p>Visit site</p>
+									</a>
+								</li>
+
+								<li>
+									<a
+										href="https://github.com/JudeCornish/benjam"
+										target="_blank"
+									>
+										<ion-icon
+											name="logo-github"
+											class="project-icon"
+										></ion-icon>
+										<p>View source code</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="project project1">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="project-header">
+					<h2>HTML5, CSS3, JavaScript & EventBrite Integration</h2>
+					<h1>Barnett Consulting</h1>
+				</div>
+				<div class="floating-text"><h1>#1</h1></div>
+
+				<div class="row project-showcase">
+					<div class="col-7">
+						<video loop autoplay muted src="resources/barnett-ss.mov"></video>
+					</div>
+					<div class="col-5 project-rs">
+						<div class="project-upper">
+							<h2>Professional and Digestable</h2>
+							<p>
+								A progressional managerial consultancy in need of a complete
+								business rebrand and website re-development. Unfortunately, code
+								for this site cannot be published but the site will be live in a
+								few months once development is complete. This is a good example
+								of a site where ease of use and the path user's take to find
+								information is very important.
+							</p>
+							<p>
+								It has a clear, professional colour scheme and comprehensive
+								navigation.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="standards">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="section-header">
+					<h1>BEM Convention</h1>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<img src="resources/bem.png" />
+					</div>
+					<div class="col-12">
+						<p>
+							All of my projects from this point onwards will be following the
+							BEM convention.
+						</p>
+						<p>
+							BEM is a convention that states how classes should be named to
+							avoid overlap and keep code clean and digestable.
+						</p>
+						<p>
+							Put simply, it keeps everything organised for the current
+							developer or future developers to pick back up and work on in the
+							future. As well as preventing a lot of errors and making
+							troubleshooting significantly easier.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="testimonials">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="section-header">
+					<h2>Coming soon :)</h2>
+					<h1>Client Testimonials</h1>
+				</div>
+			</div>
+		</div>
+		<div class="about-me">
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="section-header">
+					<h1>About me</h1>
+				</div>
+				<div class="row about-me-row">
+					<div class="col-7 about-ls">
+						<p>
+							Hi there! Here is a brief description of who I am and what I do:
+						</p>
+						<p>Studying Business Management BSc at Lancaster University.</p>
+						<p>
+							Avid Squash player for the university first team, competing in the
+							division 1 North East BUCS league as well as regionally in
+							division 3.
+						</p>
+						<p>
+							Self-taught web developer with skills (so far) in HTML, CSS,
+							Javascript, React Native and Google Firebase.
+						</p>
+						<p>
+							Passionate for minimal design practices and general simplicity. I
+							resinate completely with the following quote by Antoine de
+							Saint-Exupery:
+						</p>
+						<p>
+							"Perfection is achieved, not when there is nothing more to add,
+							but when there is nothing left to take away."
+						</p>
+					</div>
+					<div class="col-5">
+						<video loop muted autoplay src="resources/me-squash3.mp4"></video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="wrapper show-on-scroll is-visible">
+				<div class="footer-bottom">
+					<p>
+						Copyright &copy; Jude Cornish
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+						-
+						<a href="https://www.judecornish.co.uk/" target="_blank"
+							>judecornish.co.uk</a
+						>
+					</p>
+					<div class="go-to-top-button">
+						<a onclick="topFunction()" id="topBtn" title="Go to top">
+							<ion-icon
+								class="top-button"
+								name="arrow-up-circle-outline"
+							></ion-icon
+						></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- icons -->
+		<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
