@@ -333,6 +333,13 @@ header {
 	margin-bottom: 2vh;
 }
 
+@media screen and (max-width: 720px) {
+	.project-showcase img,
+	.project-showcase video {
+		height: 25vh;
+	}
+}
+
 .project-showcase h2 {
 	color: white;
 	text-transform: uppercase;
