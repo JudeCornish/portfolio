@@ -346,7 +346,8 @@ header {
 }
 
 .project-button {
-	margin-top: 0vh;
+	margin-top: 3vh;
+	z-index: 10;
 }
 
 .project-button ul {
