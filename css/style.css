@@ -9,6 +9,9 @@ body {
 	background-color: rgb(45, 45, 45);
 	font-family: "Roboto";
 	font-size: 16px;
+}
+
+body {
 	overflow-x: hidden;
 }
 
@@ -589,6 +592,7 @@ footer {
 	color: white;
 	text-align: center;
 	line-height: 8vh;
+	margin-top: auto;
 }
 
 .footer-bottom {
