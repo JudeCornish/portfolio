@@ -21,14 +21,12 @@ p {
 	max-width: 1300px;
 	margin: 0 auto;
 	opacity: 0;
-	transform: scale(0.9);
-	transition: 750ms ease-in-out all;
+	transition: 1000ms ease-in-out all;
 }
 
 .wrapper.is-visible {
 	opacity: 1;
-	transform: scale(1);
-	transition: 750ms ease-in-out all;
+	transition: 1000ms ease-in-out all;
 }
 
 .landing-large {
