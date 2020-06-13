@@ -106,7 +106,7 @@ TweenMax.from(".media-fixed", 1, {
 });
 
 TweenMax.from(".header-text", 1, {
-	delay: 1,
+	delay: 0,
 	opacity: 0,
 	ease: Expo.easeInOut,
 });
