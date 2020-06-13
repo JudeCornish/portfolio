@@ -401,7 +401,7 @@ header {
 	position: absolute;
 	z-index: 1;
 	bottom: 0;
-	right: 0%;
+	right: 5%;
 	opacity: 0.1;
 	font-size: 1000%;
 }
@@ -469,7 +469,6 @@ h4 {
 }
 
 .standards {
-	background-color: rgb(89, 89, 89);
 }
 
 .standards p {
@@ -495,7 +494,7 @@ h4 {
 }
 
 .testimonials {
-	background-color: rgb(62, 62, 62);
+	background-color: rgb(52, 52, 52);
 }
 
 .testimonials-header {
@@ -628,12 +627,21 @@ footer {
 .go-to-top-button {
 	display: flex;
 	flex-direction: row;
-	position: absolute;
+	position: relative;
 	right: 1%;
-	top: 60%;
+}
+
+.move-center {
+	position: absolute;
+	top: 58%;
+	right: 0;
 	transform: translateY(-50%);
 }
 
 .top-button {
 	font-size: 150%;
+}
+
+.hit-counter {
+	margin-right: 30px;
 }
