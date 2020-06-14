@@ -85,7 +85,7 @@ function isElementInViewport(el) {
 	);
 }
 
-TweenMax.from(".ring", 2, {
+TweenMax.from(".ring", 3, {
 	delay: 0,
 	opacity: 0,
 	scaleX: 0.9,
@@ -105,8 +105,8 @@ TweenMax.from(".media-fixed", 1, {
 	ease: Expo.easeInOut,
 });
 
-TweenMax.from(".header-text", 1, {
-	delay: 0,
+TweenMax.from(".header-text", 2, {
+	delay: 0.25,
 	opacity: 0,
 	ease: Expo.easeInOut,
 });
