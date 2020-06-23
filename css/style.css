@@ -9,6 +9,7 @@ body {
 	background-color: rgb(45, 45, 45);
 	font-family: "Roboto";
 	font-size: 16px;
+	width: 100%;
 }
 
 body {
@@ -27,6 +28,12 @@ p {
 	transition: 1000ms ease-in-out all;
 }
 
+.small-wrapper {
+	width: 90%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
 .wrapper.is-visible {
 	opacity: 1;
 	transition: 1000ms ease-in-out all;
@@ -39,6 +46,7 @@ p {
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	overflow-x: hidden;
 	justify-content: space-around;
 }
 
@@ -58,6 +66,12 @@ p {
 	text-transform: uppercase;
 	font-size: 10vw;
 	color: white;
+}
+
+@media screen and (min-width: 1920px) {
+	.header-text h1 {
+		font-size: 1000%;
+	}
 }
 
 .header-text h2 {
@@ -195,7 +209,7 @@ header {
 	}
 
 	.header-text {
-		top: 50%;
+		top: 40%;
 		width: 90%;
 	}
 
@@ -223,7 +237,7 @@ header {
 	}
 
 	#scroll-animation {
-		top: 90vh;
+		top: 75vh;
 	}
 }
 
@@ -300,6 +314,7 @@ header {
 	padding-top: 10vh;
 	padding-bottom: 10vh;
 	position: relative;
+	z-index: 1;
 }
 
 .project1 {
