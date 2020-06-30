@@ -41,6 +41,7 @@ p {
 
 .landing-large {
 	height: 100vh;
+	overflow: hidden;
 	margin-bottom: 5vh;
 	width: 100%;
 	position: relative;
