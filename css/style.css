@@ -661,3 +661,8 @@ footer {
 .hit-counter {
 	margin-right: 30px;
 }
+
+.project-showcase .red-warning {
+	color: rgb(193, 0, 0);
+	font-weight: 500;
+}
