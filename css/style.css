@@ -666,3 +666,7 @@ footer {
 	color: rgb(193, 0, 0);
 	font-weight: 500;
 }
+
+.row-list {
+	margin-top: 10vh;
+}
